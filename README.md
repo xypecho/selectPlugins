@@ -10,7 +10,7 @@ demo看[这里](https://xypecho.github.io/selectPlugins)(浏览器打开后按f1
 
 	<script type="text/javascript">
 		$('div').click(function(){
-			let title_name='自定义'; //title_name为联动插件的标题，即取消和确定中间的‘自定义’处
+			let title_name='自定义'; //title_name为联动插件的标题，即取消和确定中间的‘自定义标题’处
 			let select_data=['20人以下','220-100人','3100-500人','4500-1000人','51000-2000人','62000人以上'];//下拉框里面的数据，需要以数组格式传进去
 			let mount=$(this);//选中的值将以 val='xxx'的形式在增加在点击的dom身上
 			showMask(title_name,select_data,mount);
